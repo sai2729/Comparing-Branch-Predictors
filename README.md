@@ -18,3 +18,13 @@ Command:
 ```bash
 g++ -o branchPredictor CombinedBranchPredictor.cpp
 ```
+
+## How to Run:
+Run the compiled executable, ensuring the trace file (gccSmall.trace) is in the same directory.
+
+```bash
+./branchPredictor
+```
+
+## Result Analysis
+The project evaluates memory usage and prediction accuracy, showing higher accuracy with increased Branch History Register size, at the cost of increased memory consumption.
